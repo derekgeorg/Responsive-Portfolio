@@ -186,6 +186,15 @@ h3, h2 {
   width: 45%;
 }
 
+.fab {
+  size: 20px;
+}
+
+.text_div {
+  text-align: center;
+
+}
+
 .work:nth-child(even) {
   margin-right: 40px;
 }
@@ -271,7 +280,7 @@ nav {
 /*If the screen is less than 768px */
 @media only screen and (max-width: 768px){
 nav {
-  margin-right: 20px;
+  margin-right: 14px;
 }  
 .main-section {
   width: auto;
@@ -285,13 +294,16 @@ nav {
 
 /*If the screen is less than 640px */
 @media only screen and (max-width: 640px){
+#masthead {
+  width: 96%;
+}
+
 nav {
   float: none;
   clear: both;
   text-align: center;
 }
-#logo {
-  width: 100%;
+
 }
 .auth-image {
   width: 100%;
@@ -302,14 +314,31 @@ nav {
   margin-top: 20px;
 }
 
-}
 #portfolio_container {
   margin-top: 20px;
 }
 #contact_section {
   margin-top: 20px;
   float: none;
+}
+
+#bootstrap_div {
+  float: none;
+  width: 100%;
+}
+
+#catchup_div {
+  width: 100%;
+}
 
 .work {
   width: 100%;
+}
+
+#header_container {
+  width: 100%;
+}
+#logo {
+  width: 100%;
+}
 }
