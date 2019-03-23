@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Your Name</title>
+  <link rel="shortcut icon" href="assets/images/dg_favicon.png">
+  <title>Derek's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -12,31 +13,85 @@
 
   <header id="masthead">
     <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
+      <a href="index.html" id="logo">Derek Georg</a>
       <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <a href="#about_container">About</a>
+        <a href="#portfolio_container">Portfolio</a>
+        <a href="#contact_container">Contact</a>
+        <a href="#resume_container">Resume</a>
       </nav>
     </div>
   </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
+  <!---About Me Section-->
+  
+  <div id="about_container" class="container">
+    <section id="about_section" class="main-section">
       <h1>About Me</h1>
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+      <img src="assets/images/derek.png" class="auth-image" alt="Your Name">
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+      <p>Full Stack Web Developer and experienced IT Professional with a history of implementing technology system solutions for small, medium and enterprise organizations.
+        
+        I’m looking to combine my passion for business and emerging technologies to grow within my field.
+        
+        I completed the Full-Stack Web Development bootcamp at UT Austin where I expanded my skills in front-end development.
+        
+       
+      </p>
+        
+      
 
     </section>
-
   </div>
+</div>
+  <!-- Portfolio Section -->
+  
+  <div id="portfolio_container" class="container">
+    <section id="portfolio_section" class="main-section">
+      <h1>Portfolio</h1>
+
+      <div id="catchup_div" class="work">
+        <img src="assets/images/catchup_app.png" alt="CatchUp! Web App Screenshot">
+          <!-- <h3>CatchUp!</h3> -->
+      </div>
+      
+      <div id="bootstrap_div" class="work">
+        <img src="assets/images/bootstrap_portfolio.png" alt="Bootstrap Portfolio Screenshot">
+          <!-- <h3>Bootstrap</h3> -->
+      </div>
+
+    </section>
+  </div>
+  </div>
+  <!--Contact Container-->
+  
+  <div id="contact_container" class="container">
+    <section id="contact_section" class="main-section">
+      <h1>Contact</h1>
+        <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+    </section>
+  </div>
+</div> 
 
   <footer>
-    <div class="container">
+    <div id="footer_text">
       Copyright &copy; 
     </div>
   </footer>
