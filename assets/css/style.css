@@ -269,7 +269,7 @@ input[type=submit] {
 /*If the screen is less than 980px */
 @media only screen and (max-width: 980px){
 nav {
-  margin-right: 50px;
+  margin-right: 40px;
   }
 .main-section {
   width: 70%;
