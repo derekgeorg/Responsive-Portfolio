@@ -106,6 +106,10 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+#tech_section {
+  display: flex; justify-content: space-between;
+}
+
 /* footer */
 
 footer {
@@ -117,8 +121,8 @@ footer {
   font-size: 12px;
   color: #ffffff;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #002147;
+  background: #002147;
+  border-top: 8px solid #666666;
   height: 50px;
 }
 
@@ -324,6 +328,10 @@ nav {
 #contact_section {
   margin-top: 20px;
   float: none;
+}
+
+#tech_container {
+  display: none;
 }
 
 #bootstrap_div {
