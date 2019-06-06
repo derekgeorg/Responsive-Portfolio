@@ -4,7 +4,7 @@
 
 ##### Link: (https://derekgeorg.dev)
 
-##### (https://www.github.com/derekgeorg "Derek's GitHub")
+##### [inline](https://www.github.com/derekgeorg "Derek's GitHub")
 
 This portfolio is based off of the second assignment completed as a part of the *UT Austin Coding Boot Camp*.
 
