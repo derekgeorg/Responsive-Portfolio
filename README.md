@@ -4,6 +4,8 @@
 
 ##### Link: (https://derekgeorg.dev)
 
+##### [inline](https://www.github.com/derekgeorg "Derek's GitHub")
+
 This portfolio is based off of the second assignment completed as a part of the *UT Austin Coding Boot Camp*.
 
 We were tasked with making a mobile responsive website (w/o Bootstrap) using media queires with @media screen tags @ 980px, 768px abd 640px.
